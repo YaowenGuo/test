@@ -1,0 +1,5 @@
+import module 和 from module import * 有什么不同
+
+1，两者都是导入模块中的全部项目，但第二种方式在引入模块后可以直接引用模块中的变量名称，访问较方便。
+
+2，使用from module import *时，其实是copy了一份reference或者pointer，指向一份内存，var和module.var都指向同一份内存。当修改module.var时，其实你是让它指向了另外一份内存，此时var和module.var指向的是不同的内存。所以，虽然module.var的值变了，var还是指向原来那份内存，原来的值

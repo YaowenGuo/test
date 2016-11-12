@@ -1,0 +1,499 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"re",
+				"recvline"
+			],
+			[
+				"soc",
+				"sockaddr"
+			],
+			[
+				"s",
+				"sockfd"
+			],
+			[
+				"cl",
+				"clilen"
+			],
+			[
+				"c",
+				"cliaddr"
+			],
+			[
+				"cli",
+				"clilen"
+			],
+			[
+				"li",
+				"listenfd"
+			],
+			[
+				"n",
+				"nbytes"
+			],
+			[
+				"wri",
+				"write_fd"
+			],
+			[
+				"co",
+				"close"
+			],
+			[
+				"w",
+				"write_fd"
+			],
+			[
+				"reut",
+				"return"
+			],
+			[
+				"new",
+				"newM"
+			],
+			[
+				"in",
+				"int"
+			],
+			[
+				"if",
+				"ifmain	if __name__ == '__main__'"
+			],
+			[
+				"st",
+				"strip"
+			],
+			[
+				"v",
+				"viewstack"
+			],
+			[
+				"po",
+				"popid"
+			],
+			[
+				"M",
+				"MATHS"
+			],
+			[
+				"cou",
+				"course"
+			],
+			[
+				"su",
+				"student_id"
+			],
+			[
+				"alp",
+				"alphas"
+			],
+			[
+				"mu",
+				"myInput"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "client.c",
+			"settings":
+			{
+				"buffer_size": 972,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client1.c",
+			"settings":
+			{
+				"buffer_size": 991,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "server.c",
+			"settings":
+			{
+				"buffer_size": 2998,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "server1.c",
+			"settings":
+			{
+				"buffer_size": 1340,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/C++/C++ Single File.sublime-build",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "ssc",
+		"selected_items":
+		[
+			[
+				"ssc",
+				"Set Syntax: C"
+			],
+			[
+				"py",
+				"Set Syntax: Python"
+			],
+			[
+				"ssc+",
+				"Set Syntax: C++"
+			],
+			[
+				"ss",
+				"Set Syntax: Python"
+			],
+			[
+				"verilog",
+				"Set Syntax: Verilog"
+			],
+			[
+				"masm",
+				"Set Syntax: Assembly x86 (NASM)"
+			],
+			[
+				"nasm",
+				"Set Syntax: Assembly x86 (NASM)"
+			],
+			[
+				"C++",
+				"Set Syntax: C++"
+			],
+			[
+				"ssp",
+				"Set Syntax: Python"
+			],
+			[
+				"ip",
+				"Package Control: Install Package"
+			],
+			[
+				"ssnasm",
+				"Set Syntax: Assembly x86 (NASM)"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/bool/c&c++/computerNetwork/client-server/server1",
+		"/home/bool/c&c++/computerNetwork/client-server/client1.c",
+		"/home/bool/c&c++/computerNetwork/client-server/server1.c",
+		"/home/bool/c&c++/computerNetwork/client-server/client.c",
+		"/home/bool/DBMS/main.py",
+		"/home/bool/c&c++/computerNetwork/client-server/server.c",
+		"/home/bool/c&c++/hostByteOrder.c",
+		"/media/bool/Local Disk/share_file/interrupt/test7_2.asm",
+		"/home/bool/python/work1.py",
+		"/media/bool/SDCARD/代课/clock.asm",
+		"/home/bool/pythonSpace/lesson6/1.py",
+		"/home/bool/pythonSpace/rsa.py",
+		"/media/bool/SDCARD/微机接口/实验代码/test9.asm",
+		"/home/bool/c&c++/RAS/RSA.c",
+		"/media/bool/Local Disk/test/DES/DES/DES.cpp",
+		"/media/bool/ʷ/20133104test9.asm",
+		"/home/bool/c&c++/RAS/RSA.h",
+		"/home/bool/c&c++/RAS/rsa.c",
+		"/home/bool/c&c++/RAS/Rsa.h",
+		"/home/bool/c&c++/RAS/Rsa.c",
+		"/home/bool/c&c++/computerNetwork/pipeUseDemo.c",
+		"/home/bool/c&c++/computerNetwork/pipeDemo.c",
+		"/home/bool/c&c++/computerNetwork/execveDemo.c",
+		"/home/bool/c&c++/computerNetwork/systemDemo.c",
+		"/home/bool/c&c++/computerNetwork/forkDemo.c",
+		"/home/bool/c&c++/clock.cpp",
+		"/home/bool/verilogHDL/register32/regfile.v",
+		"/home/bool/pythonSpace/section6/stack.py",
+		"/media/bool/SDCARD/数据库课程设计/mySqlOpreate/experiment1.sql",
+		"/home/bool/verilogHDL/register32/regfile.h",
+		"/media/bool/8C02F7EF02F7DBE0/myProject/操作语句.sql",
+		"/media/bool/8C02F7EF02F7DBE0/myProject/sql命令.sql",
+		"/home/bool/assemblyLanguage/section9/hexdump1.asm",
+		"/media/bool/SDCARD/实验课ppt/实验代码/数码管从左至右依次显示1-6.txt",
+		"/media/bool/SDCARD/实验课ppt/实验代码/实验03_六位数码管显示实验 课.ASM",
+		"/home/bool/c&c++/test.cpp",
+		"/home/bool/c&c++/Clock.cpp",
+		"/home/bool/c&c++/makefile",
+		"/home/bool/.config/sublime-text-3/Packages/User/g++.sublime-build",
+		"/home/bool/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/bool/pythonSpace/section6/idcheck.py",
+		"/home/bool/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/bool/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"inet_pton",
+			"inet_ntoa",
+			"inet_addr",
+			"inet_ation"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "client.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 972,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								368,
+								368
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 207.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "client1.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 991,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								375,
+								375
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 207.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "server.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2998,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								244,
+								244
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 46.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "server1.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1340,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								491,
+								491
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 18.0,
+						"translation.y": 138.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/C++/C++ Single File.sublime-build",
+	"project": "client.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 127.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,10 @@
+import datetime
+
+from dateutil import rrule
+
+def weaks_day_between(rule,start,end):
+
+#setuptools
+
+def numSpace(String):
+	zxcv
