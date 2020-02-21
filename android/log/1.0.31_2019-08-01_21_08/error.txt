@@ -1,0 +1,26 @@
+// CRASH: io.sparkoflove (pid 32100)
+// Short Msg: java.lang.ArrayIndexOutOfBoundsException
+// Long Msg: java.lang.ArrayIndexOutOfBoundsException: length=0; index=0
+// Build Label: samsung/j2y18ltextc/j2y18lte:7.1.1/NMF26X/J250GDXU3ASA2:user/release-keys
+// Build Changelist: J250GDXU3ASA2
+// Build Time: 1548725195000
+// java.lang.RuntimeException: Failure delivering result ResultInfo{who=@android:requestPermissions:, request=2, result=0, data=null} to activity {io.sparkoflove/io.sparkoflove.view.profileedit.ProfileEditActivity}: java.lang.ArrayIndexOutOfBoundsException: length=0; index=0
+// 	at android.app.ActivityThread.deliverResults(ActivityThread.java:4556)
+// 	at android.app.ActivityThread.handleSendResult(ActivityThread.java:4599)
+// 	at android.app.ActivityThread.-wrap22(ActivityThread.java)
+// 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1715)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:154)
+// 	at android.app.ActivityThread.main(ActivityThread.java:6816)
+// 	at java.lang.reflect.Method.invoke(Native Method)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1565)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1453)
+// Caused by: java.lang.ArrayIndexOutOfBoundsException: length=0; index=0
+// 	at io.sparkoflove.view.profileedit.ProfileEditActivity.onRequestPermissionsResult(ProfileEditActivity.java:934)
+// 	at android.app.Activity.dispatchRequestPermissionsResult(Activity.java:7515)
+// 	at android.app.Activity.dispatchActivityResult(Activity.java:7341)
+// 	at android.app.ActivityThread.deliverResults(ActivityThread.java:4552)
+// 	... 9 more
+// 
+error: no devices/emulators found
+error: no devices/emulators found

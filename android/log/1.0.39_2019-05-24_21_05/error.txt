@@ -1,0 +1,55 @@
+// CRASH: tools777.ighashtags (pid 14124)
+// Short Msg: java.lang.IllegalArgumentException
+// Long Msg: java.lang.IllegalArgumentException: Illegal state argument: 2
+// Build Label: samsung/j2y18ltextc/j2y18lte:7.1.1/NMF26X/J250GDXU2ARF2:user/release-keys
+// Build Changelist: J250GDXU2ARF2
+// Build Time: 1529928742000
+// java.lang.IllegalArgumentException: Illegal state argument: 2
+// 	at com.google.android.material.bottomsheet.BottomSheetBehavior.startSettlingAnimation(BottomSheetBehavior.java:1006)
+// 	at com.google.android.material.bottomsheet.BottomSheetBehavior$1.run(BottomSheetBehavior.java:794)
+// 	at android.os.Handler.handleCallback(Handler.java:751)
+// 	at android.os.Handler.dispatchMessage(Handler.java:95)
+// 	at android.os.Looper.loop(Looper.java:154)
+// 	at android.app.ActivityThread.main(ActivityThread.java:6816)
+// 	at java.lang.reflect.Method.invoke(Native Method)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1565)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1453)
+// 
+// CRASH: tools777.ighashtags (pid 14767)
+// Short Msg: java.lang.IllegalArgumentException
+// Long Msg: java.lang.IllegalArgumentException: Illegal state argument: 2
+// Build Label: samsung/j2y18ltextc/j2y18lte:7.1.1/NMF26X/J250GDXU2ARF2:user/release-keys
+// Build Changelist: J250GDXU2ARF2
+// Build Time: 1529928742000
+// java.lang.IllegalArgumentException: Illegal state argument: 2
+// 	at com.google.android.material.bottomsheet.BottomSheetBehavior.startSettlingAnimation(BottomSheetBehavior.java:1006)
+// 	at com.google.android.material.bottomsheet.BottomSheetBehavior$1.run(BottomSheetBehavior.java:794)
+// 	at android.os.Handler.handleCallback(Handler.java:751)
+// 	at android.os.Handler.dispatchMessage(Handler.java:95)
+// 	at android.os.Looper.loop(Looper.java:154)
+// 	at android.app.ActivityThread.main(ActivityThread.java:6816)
+// 	at java.lang.reflect.Method.invoke(Native Method)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1565)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1453)
+// 
+// CRASH: tools777.ighashtags (pid 15321)
+// Short Msg: java.lang.IllegalArgumentException
+// Long Msg: java.lang.IllegalArgumentException: Illegal state argument: 2
+// Build Label: samsung/j2y18ltextc/j2y18lte:7.1.1/NMF26X/J250GDXU2ARF2:user/release-keys
+// Build Changelist: J250GDXU2ARF2
+// Build Time: 1529928742000
+// java.lang.IllegalArgumentException: Illegal state argument: 2
+// 	at com.google.android.material.bottomsheet.BottomSheetBehavior.startSettlingAnimation(BottomSheetBehavior.java:1006)
+// 	at com.google.android.material.bottomsheet.BottomSheetBehavior$1.run(BottomSheetBehavior.java:794)
+// 	at android.os.Handler.handleCallback(Handler.java:751)
+// 	at android.os.Handler.dispatchMessage(Handler.java:95)
+// 	at android.os.Looper.loop(Looper.java:154)
+// 	at android.app.ActivityThread.main(ActivityThread.java:6816)
+// 	at java.lang.reflect.Method.invoke(Native Method)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1565)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1453)
+// 
+error: no devices/emulators found
+error: no devices/emulators found
+error: no devices/emulators found
+error: no devices/emulators found

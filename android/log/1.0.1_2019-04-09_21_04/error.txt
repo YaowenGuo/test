@@ -1,0 +1,198 @@
+error: no devices/emulators found
+error: no devices/emulators found
+error: no devices/emulators found
+error: no devices/emulators found
+error: no devices/emulators found
+error: no devices/emulators found
+error: no devices/emulators found
+error: no devices/emulators found
+error: no devices/emulators found
+error: no devices/emulators found
+args: [-p, tools777.igdownload, -s, 500, --ignore-crashes, --ignore-timeouts, --monitor-native-crashes, -v, -v, 10000]
+ arg: "-p"
+ arg: "tools777.igdownload"
+ arg: "-s"
+ arg: "500"
+ arg: "--ignore-crashes"
+ arg: "--ignore-timeouts"
+ arg: "--monitor-native-crashes"
+ arg: "-v"
+ arg: "-v"
+ arg: "10000"
+data="tools777.igdownload"
+data="500"
+arg="--ignore-crashes" mCurArgData="null" mNextArg=5 argwas="--ignore-crashes" nextarg="--ignore-timeouts"
+arg="--ignore-timeouts" mCurArgData="null" mNextArg=6 argwas="--ignore-timeouts" nextarg="--monitor-native-crashes"
+arg="--monitor-native-crashes" mCurArgData="null" mNextArg=7 argwas="--monitor-native-crashes" nextarg="-v"
+** Error: A RuntimeException occurred:
+java.lang.SecurityException: Injecting to another application requires INJECT_EVENTS permission
+	at android.os.Parcel.readException(Parcel.java:1954)
+	at android.os.Parcel.readException(Parcel.java:1900)
+	at android.hardware.input.IInputManager$Stub$Proxy.injectInputEvent(IInputManager.java:557)
+	at android.hardware.input.InputManager.injectInputEvent(InputManager.java:874)
+	at com.android.commands.monkey.MonkeyMotionEvent.injectEvent(MonkeyMotionEvent.java:188)
+	at com.android.commands.monkey.Monkey.runMonkeyCycles(Monkey.java:1156)
+	at com.android.commands.monkey.Monkey.run(Monkey.java:652)
+	at com.android.commands.monkey.Monkey.main(Monkey.java:512)
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:315)
+
+** System appears to have crashed at event 4371 of 10000 using seed 500
+args: [-p, tools777.igdownload, -s, 500, --ignore-crashes, --ignore-timeouts, --monitor-native-crashes, -v, -v, 10000]
+ arg: "-p"
+ arg: "tools777.igdownload"
+ arg: "-s"
+ arg: "500"
+ arg: "--ignore-crashes"
+ arg: "--ignore-timeouts"
+ arg: "--monitor-native-crashes"
+ arg: "-v"
+ arg: "-v"
+ arg: "10000"
+data="tools777.igdownload"
+data="500"
+arg="--ignore-crashes" mCurArgData="null" mNextArg=5 argwas="--ignore-crashes" nextarg="--ignore-timeouts"
+arg="--ignore-timeouts" mCurArgData="null" mNextArg=6 argwas="--ignore-timeouts" nextarg="--monitor-native-crashes"
+arg="--monitor-native-crashes" mCurArgData="null" mNextArg=7 argwas="--monitor-native-crashes" nextarg="-v"
+** Error: A RuntimeException occurred:
+java.lang.SecurityException: Injecting to another application requires INJECT_EVENTS permission
+	at android.os.Parcel.readException(Parcel.java:1954)
+	at android.os.Parcel.readException(Parcel.java:1900)
+	at android.hardware.input.IInputManager$Stub$Proxy.injectInputEvent(IInputManager.java:557)
+	at android.hardware.input.InputManager.injectInputEvent(InputManager.java:874)
+	at com.android.commands.monkey.MonkeyMotionEvent.injectEvent(MonkeyMotionEvent.java:188)
+	at com.android.commands.monkey.Monkey.runMonkeyCycles(Monkey.java:1156)
+	at com.android.commands.monkey.Monkey.run(Monkey.java:652)
+	at com.android.commands.monkey.Monkey.main(Monkey.java:512)
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:315)
+
+** System appears to have crashed at event 1665 of 10000 using seed 500
+args: [-p, tools777.igdownload, -s, 500, --ignore-crashes, --ignore-timeouts, --monitor-native-crashes, -v, -v, 10000]
+ arg: "-p"
+ arg: "tools777.igdownload"
+ arg: "-s"
+ arg: "500"
+ arg: "--ignore-crashes"
+ arg: "--ignore-timeouts"
+ arg: "--monitor-native-crashes"
+ arg: "-v"
+ arg: "-v"
+ arg: "10000"
+data="tools777.igdownload"
+data="500"
+arg="--ignore-crashes" mCurArgData="null" mNextArg=5 argwas="--ignore-crashes" nextarg="--ignore-timeouts"
+arg="--ignore-timeouts" mCurArgData="null" mNextArg=6 argwas="--ignore-timeouts" nextarg="--monitor-native-crashes"
+arg="--monitor-native-crashes" mCurArgData="null" mNextArg=7 argwas="--monitor-native-crashes" nextarg="-v"
+args: [-p, tools777.igdownload, -s, 500, --ignore-crashes, --ignore-timeouts, --monitor-native-crashes, -v, -v, 10000]
+ arg: "-p"
+ arg: "tools777.igdownload"
+ arg: "-s"
+ arg: "500"
+ arg: "--ignore-crashes"
+ arg: "--ignore-timeouts"
+ arg: "--monitor-native-crashes"
+ arg: "-v"
+ arg: "-v"
+ arg: "10000"
+data="tools777.igdownload"
+data="500"
+arg="--ignore-crashes" mCurArgData="null" mNextArg=5 argwas="--ignore-crashes" nextarg="--ignore-timeouts"
+arg="--ignore-timeouts" mCurArgData="null" mNextArg=6 argwas="--ignore-timeouts" nextarg="--monitor-native-crashes"
+arg="--monitor-native-crashes" mCurArgData="null" mNextArg=7 argwas="--monitor-native-crashes" nextarg="-v"
+args: [-p, tools777.igdownload, -s, 500, --ignore-crashes, --ignore-timeouts, --monitor-native-crashes, -v, -v, 10000]
+ arg: "-p"
+ arg: "tools777.igdownload"
+ arg: "-s"
+ arg: "500"
+ arg: "--ignore-crashes"
+ arg: "--ignore-timeouts"
+ arg: "--monitor-native-crashes"
+ arg: "-v"
+ arg: "-v"
+ arg: "10000"
+data="tools777.igdownload"
+data="500"
+arg="--ignore-crashes" mCurArgData="null" mNextArg=5 argwas="--ignore-crashes" nextarg="--ignore-timeouts"
+arg="--ignore-timeouts" mCurArgData="null" mNextArg=6 argwas="--ignore-timeouts" nextarg="--monitor-native-crashes"
+arg="--monitor-native-crashes" mCurArgData="null" mNextArg=7 argwas="--monitor-native-crashes" nextarg="-v"
+args: [-p, tools777.igdownload, -s, 500, --ignore-crashes, --ignore-timeouts, --monitor-native-crashes, -v, -v, 10000]
+ arg: "-p"
+ arg: "tools777.igdownload"
+ arg: "-s"
+ arg: "500"
+ arg: "--ignore-crashes"
+ arg: "--ignore-timeouts"
+ arg: "--monitor-native-crashes"
+ arg: "-v"
+ arg: "-v"
+ arg: "10000"
+data="tools777.igdownload"
+data="500"
+arg="--ignore-crashes" mCurArgData="null" mNextArg=5 argwas="--ignore-crashes" nextarg="--ignore-timeouts"
+arg="--ignore-timeouts" mCurArgData="null" mNextArg=6 argwas="--ignore-timeouts" nextarg="--monitor-native-crashes"
+arg="--monitor-native-crashes" mCurArgData="null" mNextArg=7 argwas="--monitor-native-crashes" nextarg="-v"
+args: [-p, tools777.igdownload, -s, 500, --ignore-crashes, --ignore-timeouts, --monitor-native-crashes, -v, -v, 10000]
+ arg: "-p"
+ arg: "tools777.igdownload"
+ arg: "-s"
+ arg: "500"
+ arg: "--ignore-crashes"
+ arg: "--ignore-timeouts"
+ arg: "--monitor-native-crashes"
+ arg: "-v"
+ arg: "-v"
+ arg: "10000"
+data="tools777.igdownload"
+data="500"
+arg="--ignore-crashes" mCurArgData="null" mNextArg=5 argwas="--ignore-crashes" nextarg="--ignore-timeouts"
+arg="--ignore-timeouts" mCurArgData="null" mNextArg=6 argwas="--ignore-timeouts" nextarg="--monitor-native-crashes"
+arg="--monitor-native-crashes" mCurArgData="null" mNextArg=7 argwas="--monitor-native-crashes" nextarg="-v"
+args: [-p, tools777.igdownload, -s, 500, --ignore-crashes, --ignore-timeouts, --monitor-native-crashes, -v, -v, 10000]
+ arg: "-p"
+ arg: "tools777.igdownload"
+ arg: "-s"
+ arg: "500"
+ arg: "--ignore-crashes"
+ arg: "--ignore-timeouts"
+ arg: "--monitor-native-crashes"
+ arg: "-v"
+ arg: "-v"
+ arg: "10000"
+data="tools777.igdownload"
+data="500"
+arg="--ignore-crashes" mCurArgData="null" mNextArg=5 argwas="--ignore-crashes" nextarg="--ignore-timeouts"
+arg="--ignore-timeouts" mCurArgData="null" mNextArg=6 argwas="--ignore-timeouts" nextarg="--monitor-native-crashes"
+arg="--monitor-native-crashes" mCurArgData="null" mNextArg=7 argwas="--monitor-native-crashes" nextarg="-v"
+args: [-p, tools777.igdownload, -s, 500, --ignore-crashes, --ignore-timeouts, --monitor-native-crashes, -v, -v, 10000]
+ arg: "-p"
+ arg: "tools777.igdownload"
+ arg: "-s"
+ arg: "500"
+ arg: "--ignore-crashes"
+ arg: "--ignore-timeouts"
+ arg: "--monitor-native-crashes"
+ arg: "-v"
+ arg: "-v"
+ arg: "10000"
+data="tools777.igdownload"
+data="500"
+arg="--ignore-crashes" mCurArgData="null" mNextArg=5 argwas="--ignore-crashes" nextarg="--ignore-timeouts"
+arg="--ignore-timeouts" mCurArgData="null" mNextArg=6 argwas="--ignore-timeouts" nextarg="--monitor-native-crashes"
+arg="--monitor-native-crashes" mCurArgData="null" mNextArg=7 argwas="--monitor-native-crashes" nextarg="-v"
+args: [-p, tools777.igdownload, -s, 500, --ignore-crashes, --ignore-timeouts, --monitor-native-crashes, -v, -v, 10000]
+ arg: "-p"
+ arg: "tools777.igdownload"
+ arg: "-s"
+ arg: "500"
+ arg: "--ignore-crashes"
+ arg: "--ignore-timeouts"
+ arg: "--monitor-native-crashes"
+ arg: "-v"
+ arg: "-v"
+ arg: "10000"
+data="tools777.igdownload"
+data="500"
+arg="--ignore-crashes" mCurArgData="null" mNextArg=5 argwas="--ignore-crashes" nextarg="--ignore-timeouts"
+arg="--ignore-timeouts" mCurArgData="null" mNextArg=6 argwas="--ignore-timeouts" nextarg="--monitor-native-crashes"
+arg="--monitor-native-crashes" mCurArgData="null" mNextArg=7 argwas="--monitor-native-crashes" nextarg="-v"

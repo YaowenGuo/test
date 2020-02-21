@@ -2,5 +2,6 @@
 
 int main()
 {
-    printf("Hello Wrod!\n");
+    const int a = 5;
+    printf("Hello Wrod! %d\n", a);
 }

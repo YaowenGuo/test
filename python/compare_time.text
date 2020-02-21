@@ -1,0 +1,20 @@
+03-05 15:42:29.056 1495-3175/? I: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.example.saulmm.splashes/.OnboardingWithCenterAnimationActivity bnds=[380,67][502,189] (has extras)} from uid 10023 on display 0
+03-05 15:42:30.281 22341-22341/com.example.saulmm.splashes E: cmp=com.example.saulmm.splashes: 1551771750281
+03-05 15:42:56.668 1495-2771/? I: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.example.saulmm.splashes/.OnboardingWithCenterAnimationActivity bnds=[380,67][502,189] (has extras)} from uid 10023 on display 0
+03-05 15:42:57.795 22632-22632/com.example.saulmm.splashes E: cmp=com.example.saulmm.splashes: 1551771777795
+03-05 15:43:04.717 1495-3174/? I: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.example.saulmm.splashes/.OnboardingWithCenterAnimationActivity bnds=[380,67][502,189] (has extras)} from uid 10023 on display 0
+03-05 15:43:05.864 22820-22820/com.example.saulmm.splashes E: cmp=com.example.saulmm.splashes: 1551771785864
+03-05 15:43:09.013 1495-2481/? I: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.example.saulmm.splashes/.OnboardingWithCenterAnimationActivity bnds=[380,67][502,189] (has extras)} from uid 10023 on display 0
+03-05 15:43:10.142 22876-22876/com.example.saulmm.splashes E: cmp=com.example.saulmm.splashes: 1551771790142
+03-05 15:43:13.250 1495-3175/? I: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.example.saulmm.splashes/.OnboardingWithCenterAnimationActivity bnds=[380,67][502,189] (has extras)} from uid 10023 on display 0
+03-05 15:43:14.370 22932-22932/com.example.saulmm.splashes E: cmp=com.example.saulmm.splashes: 1551771794370
+03-05 15:43:17.650 1495-3177/? I: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.example.saulmm.splashes/.OnboardingWithCenterAnimationActivity bnds=[380,67][502,189] (has extras)} from uid 10023 on display 0
+03-05 15:43:18.780 22989-22989/com.example.saulmm.splashes E: cmp=com.example.saulmm.splashes: 1551771798780
+03-05 15:43:22.930 1495-31417/? I: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.example.saulmm.splashes/.OnboardingWithCenterAnimationActivity bnds=[380,67][502,189] (has extras)} from uid 10023 on display 0
+03-05 15:43:24.060 23044-23044/com.example.saulmm.splashes E: cmp=com.example.saulmm.splashes: 1551771804060
+03-05 15:43:27.678 1495-3177/? I: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.example.saulmm.splashes/.OnboardingWithCenterAnimationActivity bnds=[380,67][502,189] (has extras)} from uid 10023 on display 0
+03-05 15:43:28.823 23107-23107/com.example.saulmm.splashes E: cmp=com.example.saulmm.splashes: 1551771808823
+03-05 15:43:32.835 1495-2497/? I: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.example.saulmm.splashes/.OnboardingWithCenterAnimationActivity bnds=[380,67][502,189] (has extras)} from uid 10023 on display 0
+03-05 15:43:33.950 23162-23162/com.example.saulmm.splashes E: cmp=com.example.saulmm.splashes: 1551771813950
+03-05 15:43:37.645 1495-3166/? I: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.example.saulmm.splashes/.OnboardingWithCenterAnimationActivity bnds=[380,67][502,189] (has extras)} from uid 10023 on display 0
+03-05 15:43:38.762 23216-23216/com.example.saulmm.splashes E: cmp=com.example.saulmm.splashes: 1551771818762
