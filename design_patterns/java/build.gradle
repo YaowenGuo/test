@@ -1,0 +1,12 @@
+apply plugin: 'java-library'
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ['.']
+        }
+    }
+}
+
+
+
