@@ -15,5 +15,4 @@ private:
     Room* _room2;
     bool _isOpen;
 };
-
 #endif

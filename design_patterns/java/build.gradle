@@ -3,10 +3,17 @@ apply plugin: 'java-library'
 sourceSets {
     main {
         java {
-            srcDirs = ['.']
+            srcDirs = ['src']
         }
+    }
+
+    test{
+        java { srcDirs=['src'] }
     }
 }
 
 
 
+dependencies {
+    implementation fileTree(dir: "src", include: ["*.jar"])
+}

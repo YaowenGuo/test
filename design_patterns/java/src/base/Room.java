@@ -1,6 +1,6 @@
 package base;
 
-public class Room implements MapSite {
+public class Room implements MapSite, Cloneable {
     int mRoomNo;
     MapSite[] mSide;
     public Room(int num) {

@@ -1,4 +1,4 @@
-#include "../../../headers//MazeFactory.h"
+#include "../../../headers/create/abstract_factory/MazeFactory.h"
 
 Maze* MazeFactory::makeMaze() const {
     return new Maze;

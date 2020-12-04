@@ -4,7 +4,7 @@ package base;
 * They are target of Data structure and algorithm. So we don't need to 
 * focus on how to save a room and find it.
 */
-public class Maze {
+public class Maze implements Cloneable {
     public void addRoom(Room room) {
         // Add a room in some way.
     }

@@ -15,3 +15,5 @@ Room* Door::otherSideFrom(Room* from) {
     }
     return 0;
 }
+
+

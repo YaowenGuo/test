@@ -1,6 +1,6 @@
 package base;
 
-public class Door implements MapSite {
+public class Door implements MapSite, Cloneable {
     private Room mRoom1, mRoom2;
     public Door(Room room1, Room room2) {
         mRoom1 = room1;
@@ -22,5 +22,10 @@ public class Door implements MapSite {
         } else {
             return null;
         }
+    }
+
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        return super.clone();
     }
 }
