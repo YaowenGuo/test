@@ -6,19 +6,21 @@
 * Maze class is consist of MazeSite.
 */
 
-class Maze {
+class Maze : public Cloneable {
 public:
-
-    void addRoom(Room*);
-    /*
-    * Find the room by room number.
-    * @param roomNum room number.
-    * return The room with input number, It will be null if on such a room.
-    */
-    Room* roomNo(int roomNum) const;
+  Maze();
+  Maze(const Maze &);
+  void addRoom(Room*);
+  /*
+  * Find the room by room number.
+  * @param roomNum room number.
+  * return The room with input number, It will be null if on such a room.
+  */
+  Room* roomNo(int roomNum) const;
+  Maze* clone() const;
 
 private:
-    // ...
+  // ...
 };
 
 #endif

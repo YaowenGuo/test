@@ -1,12 +1,14 @@
 #ifndef __HEADER_MAP_SITE__
 #define __HEADER_MAP_SITE__
-enum Direction {North, South, East, West};
+#include "create/prototype/Cloneable.h"
 
-class MapSite {
+enum Direction { North, South, East, West };
+
+class MapSite : public Cloneable {
 public:
-    bool enter() {
-        return false;
-    };
+  bool enter() {
+	return false;
+  };
 };
 
 #endif

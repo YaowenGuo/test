@@ -1,22 +1,26 @@
 #ifndef DESIGN_PATTERNS_MAZE_PROTOTYPE_FACTORY_H
 #define DESIGN_PATTERNS_MAZE_PROTOTYPE_FACTORY_H
-
+#include "../../Room.h"
 #include "../../Door.h"
 #include "../../Maze.h"
 #include "../../Wall.h"
 
-template<class MAZE, class WALL, class ROOM, class DOOR>
+/**
+ * 该类并不是 Prototype 的部件，而是使用 Prototype 实现的 Abstract Factory.
+ * 对比 Abstract Factory 的 MazeFactory 和其子类，减少了类的定义。
+ */
+
 class MazePrototypeFactory {
 public:
-  MazePrototypeFactory(MAZE*, WALL*, ROOM*, DOOR*);
+  MazePrototypeFactory(Maze*, Wall*, Room*, Door*);
 
-  MAZE* makeMaze() const;
+  Maze* makeMaze() const;
 
-  ROOM* makeRoom() const;
+  Room* makeRoom() const;
 
-  WALL* makeWall() const;
+  Wall* makeWall() const;
 
-  DOOR* makeDoor() const;
+  Door* makeDoor() const;
 
 private:
   Room* _prototypeRoom;
@@ -24,8 +28,5 @@ private:
   Wall* _prototypeWall;
   Door* _prototypeDoor;
 };
-
-
-
 
 #endif // DESIGN_PATTERNS_MAZE_PROTOTYPE_FACTORY_H
