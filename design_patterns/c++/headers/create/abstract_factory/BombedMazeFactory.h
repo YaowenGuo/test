@@ -8,6 +8,7 @@
 
 class BombedMazeFactory: public MazeFactory {
 public:
+  BombedMazeFactory();
   Wall* makeWall() const;
   Room* makeRoom(int num) const;
 };

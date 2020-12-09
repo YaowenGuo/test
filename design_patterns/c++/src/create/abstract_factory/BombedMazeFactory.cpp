@@ -7,6 +7,8 @@
 #include "../../../headers/bomb/bomb_room.h"
 #include "../../../headers/bomb/BombedWall.h"
 
+BombedMazeFactory::BombedMazeFactory() = default;
+
 Wall* BombedMazeFactory::makeWall() const {
   return new BombedWall;
 }

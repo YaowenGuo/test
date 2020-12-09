@@ -9,7 +9,7 @@
 
 class EnchantedRoom: public Room {
 public:
-  EnchantedRoom(int roomNo, Spell *);
+  EnchantedRoom(int roomNo, Spell*);
 };
 
 #endif //DESIGN_PATTERNS_C_HEADERS_ENCHANCEDROOM_H

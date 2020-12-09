@@ -10,10 +10,19 @@
 class MazeFactory {
 
 public:
-    Maze* makeMaze() const;
-    Wall* makeWall() const;
-    Room* makeRoom(int number) const;
-    Door* makeDoor(Room*, Room*) const;
+  Maze* makeMaze() const;
+  virtual Wall* makeWall() const;
+  virtual Room* makeRoom(int number) const;
+  static Door* makeDoor(Room*, Room*) ;
+
+  // ----- Singleton Start ------
+  static MazeFactory* instance();
+
+protected:
+  MazeFactory();
+private:
+  static MazeFactory* _instance;
+  // ---- Singleton end -----------
 };
 
 #endif

@@ -3,3 +3,7 @@
 //
 
 #include "../../headers/EnchantedRoom.h"
+
+EnchantedRoom::EnchantedRoom(int roomNo, Spell*) : Room(roomNo) {
+
+}

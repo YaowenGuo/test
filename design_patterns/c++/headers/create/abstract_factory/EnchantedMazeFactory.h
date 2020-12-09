@@ -12,13 +12,12 @@
 
 class EnchantedMazeFactory : public MazeFactory {
 public:
+  EnchantedMazeFactory();
   virtual Room* makeRoom(int num) const {
 	return new EnchantedRoom(num, castSpell());
   }
 
-  virtual Door* makeDoor(Room* from, Room* to) const {
-	return new DoorNeedingSpell(from, to);
-  }
+  virtual Door* makeDoor(Room* from, Room* to) const;
 
 private:
   Spell* castSpell() const;
