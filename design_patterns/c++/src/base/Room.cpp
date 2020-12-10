@@ -17,7 +17,7 @@ MapSite* Room::getSide(Direction direction) const {
 }
 
 void Room::setSide(Direction direction, MapSite* mapSite) {
-  _side[direction] = mapSite;
+  _side[(int)direction] = mapSite;
 }
 
 void Room::setNum(int num) {

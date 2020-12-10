@@ -6,12 +6,14 @@
 #include "../../headers/create/abstract_factory/BombedMazeFactory.h"
 #include "../../headers/create/abstract_factory/EnchantedMazeFactory.h"
 #include "../../headers/create/prototype/MazePrototypeFactory.h"
+#include "../../headers/create/builder/StandardMazeBuilder.h"
+#include "../../headers/create/builder/CountingMazeBuilder.h"
+
 using namespace std;
 
 /**
  * Abstract factory
  */
-
 /*int main() {
   MazeGame game;
   EnchantedMazeFactory mazeFactory;
@@ -25,6 +27,30 @@ using namespace std;
 
   return 0;
 }*/
+
+
+/**
+ * Builder
+ */
+int main() {
+  Maze* maze;
+  MazeGame game;
+  StandardMazeBuilder builder;
+  game.createMaze(builder);
+  maze = builder.getMaze();
+  cout << "End." << endl;
+
+  int rooms, doors;
+  CountingMazeBuilder countBuilder;
+  maze = game.createMaze(countBuilder);
+  countBuilder.getCounts(rooms, doors);
+  cout << "The maze has "
+	   << rooms << " rooms and "
+	   << doors << " doors" << endl;
+
+  return 0;
+}
+
 
 
 /**
@@ -45,7 +71,7 @@ using namespace std;
 /**
  * Singleton
  */
-int main() {
+/*int main() {
   MazeGame game;
   setenv("MAZESTYLE", "bombed", 1);
   MazeFactory* mazeFactory = MazeFactory::instance();
@@ -59,6 +85,6 @@ int main() {
   cout << "Singleton Factory end." << endl;
 
   return 0;
-}
+}*/
 
 
