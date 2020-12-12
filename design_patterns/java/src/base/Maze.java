@@ -13,4 +13,9 @@ public class Maze implements Cloneable {
         // A search mathod to get target room.
         return null;
     }
+
+    @Override
+    public Maze clone() {
+        return new Maze();
+    }
 }

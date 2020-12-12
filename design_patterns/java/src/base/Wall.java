@@ -5,4 +5,9 @@ public class Wall implements MapSite, Cloneable {
     public boolean enter() {
         return false;
     }
+
+    @Override
+    public Wall clone() {
+        return new Wall();
+    }
 }

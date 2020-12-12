@@ -1,6 +1,6 @@
 package base;
 
-public class Room implements MapSite, Cloneable {
+public class Room implements MapSite {
     int mRoomNo;
     MapSite[] mSide;
     public Room(int num) {
@@ -44,4 +44,8 @@ public class Room implements MapSite, Cloneable {
         }
     }
 
+    @Override
+    public Room clone() {
+        return new Room(this.mRoomNo);
+    }
 }

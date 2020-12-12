@@ -1,6 +1,6 @@
 package base;
 
-public interface MapSite {
+public interface MapSite extends Cloneable {
     boolean enter();
 }
 

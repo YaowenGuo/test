@@ -25,7 +25,8 @@ public class Door implements MapSite, Cloneable {
     }
 
     @Override
-    protected Object clone() throws CloneNotSupportedException {
-        return super.clone();
+    public Door clone() {
+        // 或者使用 super.clone();
+        return new Door(this.mRoom1, this.mRoom2);
     }
 }
