@@ -1,7 +1,8 @@
 package base;
 
 public class Room implements MapSite {
-    int mRoomNo;
+
+    protected int mRoomNo;
     MapSite[] mSide;
     public Room(int num) {
         mRoomNo = num;
@@ -47,5 +48,9 @@ public class Room implements MapSite {
     @Override
     public Room clone() {
         return new Room(this.mRoomNo);
+    }
+
+    public boolean isSameRoom(int num) {
+        return mRoomNo == num;
     }
 }

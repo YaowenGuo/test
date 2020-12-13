@@ -1,6 +1,7 @@
 package base;
 
 import create.abstract_factory.MazeFactory;
+import create.builder.MazeBuilder;
 
 import static base.Direction.East;
 import static base.Direction.North;
@@ -28,5 +29,14 @@ public class MazeGame {
         room1.setSide(West, aDoor);
         
         return aMaze;
+    }
+
+
+    // ------ Builder start ----------
+    public Maze createMaze(MazeBuilder builder) {
+        builder.buildRoom(1);
+        builder.buildRoom(2);
+        builder.buildDoor(1, 2);
+        return builder.buildMaze();
     }
 }
