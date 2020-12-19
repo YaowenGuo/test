@@ -10,6 +10,9 @@
 
 MazeFactory::MazeFactory() = default;
 MazeFactory* MazeFactory::_instance = nullptr;
+/**
+ * 这种实现方式被称为 登记式单例*
+ */
 
 MazeFactory* MazeFactory::instance() {
   if (_instance==nullptr) {
