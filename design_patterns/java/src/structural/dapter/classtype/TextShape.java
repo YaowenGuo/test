@@ -1,4 +1,4 @@
-package structural.dapter.object;
+package structural.dapter.classtype;
 
 import java.awt.Point;
 
@@ -7,10 +7,9 @@ import structural.dapter.Shape;
 import structural.dapter.TextView;
 
 /**
- * Object adapter.
+ * Class adapter.
  */
-public class TextShape implements Shape {
-    private TextView textView;
+public class TextShape extends TextView implements Shape {
 
     @Override
     public void boundingBox(Point bottomLeft, Point topRight) throws Exception {
@@ -20,8 +19,8 @@ public class TextShape implements Shape {
         double top = topRight.getY();
         double right = topRight.getX();
         double bottom = bottomLeft.getX();
-        textView.setOrigin((float) left, (float) top);
-        textView.setExtent((float)(right - left), (float)(bottom - top));
+        setOrigin((float) left, (float) top);
+        setExtent((float)(right - left), (float)(bottom - top));
     }
 
     @Override
