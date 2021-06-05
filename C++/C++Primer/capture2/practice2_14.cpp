@@ -1,21 +1,18 @@
 /*************************************************************************
-	> File Name: first.cpp
+	> File Name: practice2_14.cpp
 	> Author: YaowenGuo
 	> Mail: 1441250996@qq.com 
-	> Created Time: Fri Dec  4 10:16:35 2020
+	> Created Time: Tue Jun  1 21:06:24 2021
  ************************************************************************/
 
 #include<iostream>
-#include "Sales_item.h"
 using namespace std;
 
 int main() {
-	Sales_item item1, item2;
-	cin >> item1;
-	while (cin >> item2)
-	{
-		item1 += item2;
-	}
-	cout << item1 << endl;
+	int i = 100, sum = 0;
+	for (int i = 0; i != 10; ++i)
+		sum += i;
+	cout << i << " " << sum << endl;
 	return 0;
 }
+

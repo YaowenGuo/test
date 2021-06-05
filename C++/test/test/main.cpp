@@ -7,9 +7,14 @@
 //
 
 #include <iostream>
+using namespace std;
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    cout << (200 * 300 * 400 * 500) << endl;
+
+    unsigned int a = 3;
+    unsigned int b = 5; 
+    cout << (a - b) / 2 + b << endl;
+
     return 0;
 }

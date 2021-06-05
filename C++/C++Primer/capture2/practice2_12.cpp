@@ -1,21 +1,18 @@
 /*************************************************************************
-	> File Name: first.cpp
+	> File Name: practice2_12.cpp
 	> Author: YaowenGuo
 	> Mail: 1441250996@qq.com 
-	> Created Time: Fri Dec  4 10:16:35 2020
+	> Created Time: Tue Jun  1 20:47:59 2021
  ************************************************************************/
 
 #include<iostream>
-#include "Sales_item.h"
 using namespace std;
 
+int _glable;
 int main() {
-	Sales_item item1, item2;
-	cin >> item1;
-	while (cin >> item2)
-	{
-		item1 += item2;
-	}
-	cout << item1 << endl;
+
+	int _A;
+	int A__1;
+	double Double = 3.14;
 	return 0;
 }
