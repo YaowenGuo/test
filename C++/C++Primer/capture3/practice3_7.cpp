@@ -1,11 +1,15 @@
-#include <iostream>
-#include <string>
+#include<iostream>
+#include<string>
 
-using std:string;
-using std:cout;
-using std:endl;
+using std::cout;
+using std::endl;
+using std::string;
 
 int main() {
-
-  return 0;
+	string str("Hello world!");
+	for (auto ch : str) {
+		ch = 'X';
+	}
+  cout << str << endl;
+	return 0;
 }
